@@ -1,8 +1,12 @@
 # detection-> 2d pose estimation -> 3d pose lift
 
-This is a demo project performing detection, 2d pose estimation and 3d pose estimation.
-Weight files are either downloaded or generated with torch dynamo.
+This is a demo project that performs detection, 2d pose estimation, and 3d pose estimation.
+Weight files are either downloaded or generated with Torch Dynamo.
 note that the red circles are 2d joints, purple circles are 3d
+
+## Demo video
+
+![](demo.mov)
 
 ## FLOW
 
@@ -23,15 +27,15 @@ note that the red circles are 2d joints, purple circles are 3d
 
 * Performs 2d pose joint estimation
 * Performs "once" on each person object
-* is batch-able
+* Is batch-able
 
 ### Motion-bert
 
-* performs 2d to 3d joint point lift
-* the result is put back onto the image, but you should use the generated result, 
+* Performs 2d to 3d joint point lift
+* The result is put back onto the image, but you should use the generated result, 
 this is only used to show the result is sensible
-* the model need a 10 frame buffer, so there will be a 10 frame delay
-* batch number is one
+* The model need a 10-frame buffer, so there will be a 10-frame delay
+* Batch number is one
 
 ## Reference
 
