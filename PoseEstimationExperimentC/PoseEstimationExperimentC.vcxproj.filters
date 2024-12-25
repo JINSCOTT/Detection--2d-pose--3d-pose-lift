@@ -54,7 +54,4 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="note.txt" />
-  </ItemGroup>
 </Project>
