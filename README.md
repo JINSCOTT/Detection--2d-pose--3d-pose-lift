@@ -5,7 +5,7 @@ Weight files are either downloaded or generated with Torch Dynamo.
 note that the red circles are 2d joints, purple circles are 3d
 
 ## Demo video
-https://github.com/JINSCOTT/Detection--2d-pose--3d-pose-lift/blob/master/demo.mov
+https://github.com/JINSCOTT/Detection--2d-pose--3d-pose-lift/blob/master/demo.gif
 
 ## FLOW
 
